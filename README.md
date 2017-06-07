@@ -54,4 +54,7 @@ Hit ENTER to redeploy, X to exit
 
 # References
 
-[Mockito - Behavior Driven Development](https://www.tutorialspoint.com/mockito/mockito_bdd.htm)
+[Maven plugin for GlassFish](https://jinahya.wordpress.com/2015/04/23/using-maven-embedded-glassfish-plugin-4-x/)
+
+[WebServices SOAP with JAX-WS](http://aprendendo-javaee.blogspot.com.es/2014/01/introducao-web-services-soap-com-jax-ws.html)
+
