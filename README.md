@@ -52,6 +52,27 @@ Hit ENTER to redeploy, X to exit
 ```
 
 
+Endpoint
+
+```
+![](doc/endpoint.png)
+```
+
+WSDL
+
+```
+![](doc/wsdl.png)
+```
+
+Client
+
+```
+![](doc/soapui.png)
+```
+
+
+
+
 # References
 
 [Maven plugin for GlassFish](https://jinahya.wordpress.com/2015/04/23/using-maven-embedded-glassfish-plugin-4-x/)
