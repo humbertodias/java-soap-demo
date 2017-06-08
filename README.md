@@ -54,21 +54,15 @@ Hit ENTER to redeploy, X to exit
 
 Endpoint
 
-```
 ![](doc/endpoint.png)
-```
 
 WSDL
 
-```
 ![](doc/wsdl.png)
-```
 
 Client
 
-```
 ![](doc/soapui.png)
-```
 
 
 
