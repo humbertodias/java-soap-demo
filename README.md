@@ -54,13 +54,19 @@ Hit ENTER to redeploy, X to exit
 
 Endpoint
 
+[http://localhost:8080/CalculadoraWSService](http://localhost:8080/CalculadoraWSService)
+
 ![](doc/endpoint.png)
 
 WSDL
 
+[http://localhost:8080/CalculadoraWSService?wsdl](http://localhost:8080/CalculadoraWSService?wsdl)
+
 ![](doc/wsdl.png)
 
 Client
+
+SoapUI > SOAP > Initial WSDL > [http://localhost:8080/CalculadoraWSService?wsdl](http://localhost:8080/CalculadoraWSService?wsdl)
 
 ![](doc/soapui.png)
 
