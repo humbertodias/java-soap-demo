@@ -10,6 +10,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <http.port>8080</http.port>
     </properties>
 
 	<dependencies>
@@ -42,7 +43,7 @@
                 <artifactId>maven-embedded-glassfish-plugin</artifactId>
                 <version>4.1.1</version>
                 <configuration>
-                    <port>8080</port>
+                    <port>${http.port}</port>
                 </configuration>
                 <executions>
                     <execution>

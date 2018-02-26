@@ -26,7 +26,8 @@ cd java-soap-demo
 Run
 
 ```
-mvn embedded-glassfish:run
+mvn package
+mvn embedded-glassfish:run -Dhttp.port=8080
 ```
 
 

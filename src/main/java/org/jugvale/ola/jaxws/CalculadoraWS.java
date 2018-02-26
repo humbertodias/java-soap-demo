@@ -8,9 +8,9 @@ import javax.jws.WebService;
 public class CalculadoraWS {
 
     @WebMethod
-	public double fazerOp(@WebParam(name = "num1") double a,
-			@WebParam(name = "num2") double b, @WebParam(name = "op") String op) {
-		// Por que você não clona o projeto e cria mais funções para brincar?
+	public double fazerOp(@WebParam(name = "num1") double a
+						, @WebParam(name = "num2") double b
+						, @WebParam(name = "op") String op) {
 		switch (op) {
 		case "+":
 			return a + b;
