@@ -19,20 +19,18 @@
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
-            <version>7.0</version>
+            <version>8.0.1</version>
             <scope>provided</scope>
         </dependency>
 
 	</dependencies>
-
-
 
 	<build>
 		 <finalName>calculadora-jax-ws</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>3.1.0</version>
+				<version>3.2.2</version>
 				<configuration>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
@@ -41,7 +39,7 @@
             <plugin>
                 <groupId>org.glassfish.embedded</groupId>
                 <artifactId>maven-embedded-glassfish-plugin</artifactId>
-                <version>4.1.1</version>
+                <version>5.1</version>
                 <configuration>
                     <port>${http.port}</port>
                 </configuration>
@@ -61,13 +59,19 @@
                     <dependency>
                         <groupId>org.glassfish.main.extras</groupId>
                         <artifactId>glassfish-embedded-all</artifactId>
-                        <version>4.1</version>
+                        <version>5.1.0</version>
                     </dependency>
                 </dependencies>
             </plugin>
 
+            <!-- mvn formatter:format -->
+            <plugin>
+                <groupId>net.revelc.code.formatter</groupId>
+                <artifactId>formatter-maven-plugin</artifactId>
+                <version>2.8.1</version>
+            </plugin>
+
 		</plugins>
 	</build>
-
 
 </project>
