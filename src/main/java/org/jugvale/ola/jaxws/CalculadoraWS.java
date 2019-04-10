@@ -21,7 +21,7 @@ public class CalculadoraWS {
             return a / b;
         default:
             throw new IllegalArgumentException(
-                    String.format("Operation '% s' not recognized. Shoul be  '+', '-', '*' ou '/'.", op));
+                    String.format("Operation '%s' not recognized. Should be  '+', '-', '*' ou '/'.", op));
         }
     }
 }
